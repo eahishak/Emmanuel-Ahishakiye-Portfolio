@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <title>Emmanuel Ahishakiye</title>
+    <style>
+        @media screen and (max-width: 768px) {
+    
+.intro-content h2{
+    font-size: 2em;
+    text-align: center;
+}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Meet Emmanuel</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown(this)">Interests</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">Adventure</a>
+                        <a href="poetry.html">Poems</a>
+                        <a href="Writing.html">Writing</a>
+                        <a href="#books">Books</a>
+                        
+                    </div>
+                </li>
+                 <!-- <li><a href="contacts.html">Contacts</a></li>-->
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="search-bar">
+                    <form id="search-form" onsubmit="handleSearch(event)">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button type="submit" id="search-btn">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="netflix-style">
+        <div class="sliding-carousel">
+            <img src="img/home/poem.jpg" alt="Image 1">
+        </div>
+        <div class="course-intro">
+            <div class="intro-content">
+                <h2 style="font-size: 2.2em!important">Exploring Emotions Poetry Collection</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="poems-section">
+        <div class="poem-item">
+            <h2>The Formula of Life</h2>
+            <p>It was in the twilight, I was walking upstairs when my mom called me,<br> she told me that I was moving  like a definition of life. </br>I was confused and couldn’t really get what she wanted to mean.  </br>
+            I kept asking myself what’s the formula of life.</p>
+            <div id="poem1" style="display: none;">
+                <p>Life is an opportunity to  achieve what you want, </br>
+                    It doesn’t matter where you were nurtured </br>
+                    It matters to the love you give, </br>
+                    Not the hate you give, </br>
+                    Look up to grab the forth </br>
+                    And How you can define this mystery. </br> </br>
+                    
+                    We go up and downs, </br>
+                    We lose and gain </br>
+                    And we create what we get </br>
+                    The life we live is determined by our preference </br>
+                    But it doesn’t mean that  </br>
+                    We’re all set </br> </br>
+                    
+                    “How to build a life” is a new column that aims to give you the tools you need to construct a life that feels whole and meaningful, said Arthur Brooks in 2017. </br>
+                    
+                    After a while, you learn </br>
+                    The subtle difference between </br>
+                    Holding a hand and chaining a soul </br>
+                    And you learn that life doesn’t mean leaning </br>
+                    It doesn’t mean that the path is always smooth. </br>
+                    But creating it.  </br> </br>
+                    
+                    
+                    I could feel the strong love in my veins </br>
+                    N’ lifting up my weight  </br>
+                    Lik’ a sunset on the top of hill shining </br>
+                    The kisses aren’t really contracts </br>
+                    But the way I treat my beloved ones </br> </br>
+                    
+                    R’ Spinning my manners </br>
+                    And mixing up words </br>
+                    All make me dizzy </br>
+                    That’s the ocean I swim </br>
+                    Good and bad, </br> </br>
+                    
+                    
+                    It’s  always in the hideout  </br>
+                    drifting in every single corner </br>
+                    Nobody around to lift and get me water </br>
+                    I am exposed  Because I still want honor  </br>
+                    Like a doyen in hammer </br>
+                    I keep nodding with a little smile  </br>
+                    Why ain’t I getting the formula. </br> </br>
+                    
+                    The power of love, grit  </br>
+                    And growth mindset  </br>
+                    No messy, just </br>
+                    Doing what is right  </br>
+                    
+                    Being yourself and loving yourself </br>
+                    The community is again the priority </br>
+                    Just keep serving with the heart of gratitude </br>
+                    That’s the formula of life. </br></br>
+                    &copy Emmanuel Ahishakiye
+                    </p>
+            </div>
+            <button onclick="showMore('poem1')">Read More</button>
+        </div>
+    
+        <!-- Poem 2 -->
+        <div class="poem-item">
+            <h2> Little Choices</h2>
+            <p> A: Every early morning waking up thinking of you<br>
+B. Okay. Fun of you hhh. eehee<br>
+A: I keep on following you!<br>
+B: Ah. I also keep on following you!<br>
+A: Women are trash.<br>
+B: Men are trash.<br>
+A: Why Do I even keep on Running after you? Love is blind.<br>
+B: Okay: Leave me alone; Love is not blind.<br><br>
+
+B: It was your choice.
+
+
+
+            </p>
+            
+            <div id="poem2" style="display: none;">
+                <p>
+                    A: Of course. Then  I never regret<br>
+                    A: And you know how much I care about you<br>
+                    B: You also know how much I think of you<br>
+                    A/B: Let’s leave it<br><br>
+                    
+                    A/B: 
+                    That’s how we live<br><br>
+                    
+                    A: Life is Razzmatazz<br>
+                    But rigmarolling<br>
+                    Where future seems unturned and clear<br>
+                    And skies are seen in blur mode for some folks<br>
+                    And view no success in the beautiful goals we have<br>
+                    And that’s okay<br><br>
+                    
+                    B: There is always a step to take<br><br>
+                    
+                    A: We are defined by what and who we show people we are<br>
+                    But bad enough, we are not given real definitions<br>
+                    Coz’ we chose material possessions<br><br>
+                    
+                    B: Indeed, Now we go <br>
+                    I think it’s a compelling choice<br><br>
+                    
+                    B: Just grasp  that loud voice but catchy<br>
+                    And Say “Never be pretentious”<br><br>
+                    
+                    A/B:
+                    Life isn’t the way we think it is<br>
+                    Climbing the tumble-like hill to the top<br>
+                    And it’s like little birds in the mystery <br>
+                    With mistakes of misery<br>
+                    But relearned the actions of bravery<br><br>
+                    
+                    A: That makes sense then.<br>
+                    It matters not how strait the gate,<br>
+                    How charged with punishments the scroll,<br>
+                    I am the master of my fate,<br>
+                    I am the captain of my soul.<br><br>
+                    
+                    B: The best gift to have is love but not a material one<br><br>
+                    
+                    A: But the best treasure to own is  embedded in kindness and fidelity<br><br>
+                    
+                    B: Anyway do you remember to rethink before you chose<br>
+                    R’ do you remember to pray before you chose<br>
+                    That reflects the determination of our little choices<br><br>
+                    
+                    
+                    A: I go on the way <br>
+                    Out of the night that covers me,<br>
+                    Black as the pit from pole to pole,<br>
+                    I thank whatever gods may be<br>
+                    For my unconquerable soul.<br><br>
+                    and,<br><br>
+                    B:  you just say <br>
+                    I have been told lies in that life,<br>
+                    Standing on the top of mountains distracted  <br>
+                    Moving around and dancing in their matters and of course, <br>
+                    A: I was steaming and bombed in a fancy way<br>
+                    Raising my hands in the air but holding nothing special<br><br>
+                    
+                    B: Don’t just blame things that don’t work out<br>
+                    And say that chances didn’t turn out<br><br>
+                    
+                    A: Coz’ you messed up on your wanded- sledge<br>
+                    When you wanted to make it out<br>
+                    B: With your wrong choices to turn them out<br>
+                    Shame on you<br><br><br>
+                    
+                    A: I told you to leave me alone<br>
+                    Coz’ now I know the right track<br>
+                    The sky is not the limit<br>
+                    Just look into my hazel eyes and <br>
+                    Read aloud that formula<br>
+                    C=E<br><br>
+                    
+                    B: And that’s how I feel loved. hhhhh<br><br>
+                    
+                    A: Good for you.<br><br>
+                    
+                    A: You have many followers<br>
+                    You know that everyone is counting on you<br>
+                    For you to be the light of your generation<br>
+                     and your future begotten ones<br><br>
+                    
+                    B: The same to you<br><br>
+                    
+                    A: I remember<br><br>
+                    
+                    A/B:
+                    We got out a bit and opened our eyes to see you<br>
+                    We came down hills as we’re discerning you up the hills<br>
+                    We ran breathlessly to set foot on your spot<br><br>
+                    
+                    B: Stars started shining by the time<br>
+                    And we lived again.<br><br>
+                    
+                    A: That was the meliora choice we ever made<br><br>
+                    
+                    
+                    A/B:
+                     “Ever better”<br>
+                    The choices are in your hands<br>
+                    Mind  your little choices<br><br>
+                    
+                    “Ever more”<br>
+                    &copy Emmanuel A & Egidie I</p>
+            </div>
+            <button onclick="showMore('poem2')">Read More</button>
+        </div>
+    
+        <!-- Poem 3 -->
+        <div class="poem-item">
+            <h2>A Strange Trashed Broken Heart</h2>
+            <p>
+                In the afternoon, I, waking up after a long nap</br>
+                I found myself in a mystery</br>
+                With no definition of  the skies</br>
+                Only feeling tied with dreams of whys</br>
+                Contours on my face, ooh My God,</br>
+                In the confrontation of your lies and cries</br>
+                Because of my strange trashed broken heart</p>
+            <div id="poem3" style="display: none;">
+                <!-- Full content of Poem 3 goes here -->
+                <p>
+                    People would always call me a man</br>
+                    Cause they always saw me in pants</br>
+                    And that’s why I sent my men</br>
+                    With unturned fame,</br>
+                    You told them</br>
+                    I’m lik’ a broken glass</br>
+                    I am nothing infront of you.</br></br>
+                    
+                    Testify, stop killin it, Go</br></br>
+                    
+                    
+                    
+                    B. 
+                    Stop talkin’</br>
+                    Cool down, </br>
+                    You’re a little broken bird with no land, no home, no love</br>
+                    I’ve seen men, not like you</br>
+                    A man with no stamina, no culture</br>
+                    A man of confusion</br>
+                    You have no room in my hood of heart</br>
+                    Only boom of the bell of your tongue</br></br>
+                    
+                    A.
+                    From Monday, Tuesday, the whole week</br>
+                    We used to smile in pacificatin,</br>
+                    But you multiplied all that feelings with minus</br>
+                    Calling me onus</br>
+                    Reminding me of what happened in the past</br></br>
+                    
+                    That I couldn’t speak french and say “Je t'aime”</br>
+                    Not for you but for my first crash</br>
+                    Spanish, “Adios” all became my burden</br>
+                    In my life, despair, all I faced</br>
+                    Coz you remained my lurden burden especially when we;re in London</br></br>
+                    
+                    
+                    
+                    
+                    B. 
+                    I still freeze when I think of my friends whom we loved and lost </br>
+                    In Dubai, when I was giving you that frozen flower in the last floor of the towel Burj Khalifa</br>
+                    For I was not able to break the glass with my arabic voice of “hararahum”, Free them.</br>
+                    But you don’t even take a glimpse of that, hoomie</br>
+                    Forcing me to call you honey when</br>
+                    Nobody was around to escot me in that journey</br>
+                    Because I minded only my hometown language and shumi[Japanesse:hobby].</br></br>
+                    
+                    
+                    A.
+                    I still don’t blame you</br>
+                    I only knew one language,</br>
+                    But I always kept with the hymn of the harmony of Pablo,</br>
+                    If each day a flower</br>
+                    climbs up to your lips to seek me,</br>
+                    ah my love, ah my own,</br>
+                    in me all that fire is repeated,</br>
+                    in me nothing is extinguished or forgotten,</br>
+                    my love feeds on your love, beloved,</br>
+                    and as long as you live it will be in your arms</br>
+                    without leaving mine.</br>
+                    And you never cared. Only calling me a trash</br></br>
+                    
+                    
+                    B. 
+                    It’s not only language barrier,</br>
+                    You crashed on me and started making me your heart carrier</br>
+                    Coz you had no culture,</br>
+                    But day by the day I kept on learning and loving</br>
+                    With the wounds of your shots and my own failures</br>
+                    I still have a reason to live</br>
+                    Swahili, hujambo is no longer a problem,</br>
+                    Kinyarwanda, mwaramutse is neither</br></br>
+                    
+                    
+                    
+                    
+                    A.  You loved my flows when I started rapping  </br>
+                    Girl, I felt your presence when they let you through the door Never had a bruddah give </br>
+                    you everything and more So I take a little piece and the rest of it is yours Mi amor</br>
+                    Thug loving when I put you in your place I can tell you love it just by looking in your face</br></br>
+                    OOh wow. Amazing!!!</br>
+                    But you still never cared</br></br>
+                    
+                    
+                    B.
+                    Oh Tell me you love me I need someone on days like this I do, on days like this…..</br>
+                    In any language,</br>
+                    My sledge, my pride, my dignity</br>
+                    Come over,  and hold me tight</br>
+                    Coz you’re wise more than king’s knight</br>
+                    Lik’ a that light in the night,</br>
+                    Ahuuuui,</br>
+                    Even our almighty God has put a mark on it.</br></br>
+                    
+                     
+                    Oh my soul, breathe, breathe. </br>
+                    Hungeri</br>
+                    There is yet joy for us this late day.</br>
+                    Clasp my hand harder if you will</br>
+                    Tell me I haven’t mislaid my mind.</br>
+                    The ecstasy of first love pulses still.</br>
+                    Peace and passion we can yet find.</br></br>
+                    
+                    Come walk with me in the misty rain</br>
+                    And mend what was to what will be.</br>
+                    Each kissing droplet cleanses the stain</br>
+                    Nurturing a new life for you and me.</br>
+                    And forget the history of a strange broken heart but only a tame love.</br></br>
+                    
+                    B.
+                    Now we can speak, travel, and  interact with our beloved ones </br></br>
+                    A.
+                    Spread love and peace. </br>
+                    A-B</br>
+                    All languages matter!!</br>
+                    United we stand!</br>
+                    
+                    &copy Emmanuel A & Delice M
+                    </p>
+            </div>
+            <button onclick="showMore('poem3')">Read More</button>
+        </div>
+    
+        <!-- Poem 4 -->
+        <div class="poem-item">
+            <h2>A Letter: An Excellent Hero</h2>
+            <p>Dear Son,</br></br>
+
+                It started like a movie, </br>
+                But nobody could tell</br>
+                I was sophisticated,</br>
+                but nobody could apprise</br>
+                I called it a friendship </br>
+                but with pretentiousness
+               </p>
+           
+            <div id="poem4" style="display: none;">
+                <p>
+                    We looked insane</br>
+                    We didn’t know that one day we would climb</br>
+                    It was very confusing in that misery game</br>
+                    Being mystified and stepped on by that matter</br>
+                    And when he ran holding my hands</br>
+                    I couldn’t notice</br></br>
+                    
+                    It seemed boring in that twilight </br>
+                    With no hope of gazing at the sunrise</br>
+                    We only had feelings of disgust and love at the same time</br>
+                    Haha, Very confusing,</br>
+                    And we weren’t really worried coz’</br>
+                    That was the instant mood and our daily food</br></br>
+                    
+                    I kinda motivated myself by saying it’s okay not to be okay</br>
+                    Nevertheless, Living in that calamity</br>
+                    Looking in the sky and </br>
+                    Seeing no stars except blowing wind</br>
+                    But what did I do after the miles I ran?</br>
+                    You see! </br>
+                    NO Choice</br></br>
+                    
+                    
+                    
+                    
+                    While I was thinking about what to do next,</br>
+                    It was very hard to think of luck</br>
+                    Lik’ a sailor in the hurricane</br>
+                    However, I heard some steps in distance heading up making noise</br>
+                    In fact, I was still bamboozled coz’ my people were chanting in their resistance</br></br>
+                    
+                    One day, I moved to a new place,</br>
+                    And that I called home</br>
+                    I kept blinking my eyes</br>
+                    Standing on the crest of the wave</br>
+                    Enjoying the fest of the west</br>
+                    Trying this test of love</br>
+                    Coz’ I didn’t want to rest on that phase,</br>
+                    And that’s where I gave birth to you</br></br>
+                    
+                    That was the real world of eagles,</br>
+                    I thought you were saying,</br>
+                    Mom, this algorithm is very tough</br>
+                    I didn’t want to confess or laugh</br>
+                    And of course, the way was not rough</br>
+                    
+                    No more haziness thought was a lie, haha</br>
+                    Our hearts were full of happiness indeed</br>
+                    Bumped away laziness and </br>
+                    Had feelings of love</br>
+                    That wonderful feeling that seemed to boggle our minds</br></br>
+                    
+                    They came across us after</br>
+                    Sledging on our wand</br>
+                    They took our shape because we were nurtured</br>
+                    By the nature of the inspirational people</br></br>
+                    Who taught us how to sing the songs of gratitude?</br>
+                    And move in that special beat symbolizing sparrows</br>
+                    Nicolas said</br>
+                    A family is like a book.</br>
+                    The ending's never clear,</br>
+                    but through the pages of the book,</br>
+                    their love is always near.</br>
+                    
+                    You still stand near us holding our hands</br>
+                    For you never let us fall</br>
+                    You're still an exceptional</br>
+                    Coz’ you don’t wanna let yours strand like them</br>
+                     You have the key,</br>
+                    Change them until you reach the page</br>
+                    Those stories will never change</br></br>
+                    
+                    You’re an excellent hero</br>
+                    &copy Emmanuel A
+                    
+                </p>
+            </div>
+            <button onclick="showMore('poem4')">Read More</button>
+        </div>
+    
+        <!-- Poem 5 -->
+        <div class="poem-item">
+            <h2> The Heart Of Gratitude</h2>
+            <p>Why ain’t I valued?</br>
+                Is it because I am you?</br>
+                Or is it that I have no money?</br>
+                They keep being rude because</br>
+                I am always in that hood of the mood</br>
+                Can I live when my face is curved by the hoodie?</br>
+                Let me leave it for the lobby</br>
+                Because I wanna express the heart of gratitude.
+              .</p>
+            <div id="poem5" style="display: none;">
+                
+                <p> 
+                    I am always in the hideout </br>
+                    I am drifted in every single corner</br>
+                    Nobody around to lift and get me water</br>
+                    I am exposed </br>
+                    Because I still want honor </br>
+                    Like a doyen in hammer</br>
+                    I keep nodding with a little smile </br>
+                    I want you to feel me, and </br>
+                    Give me the ball on this floor.</br></br>
+                    
+                    Don’t stage it out </br>
+                    licking lips like a baby</br>
+                    Don’t lie coz’ I am still gentle</br> 
+                    Like’ a gentle wind on the gentle slope of the jungle</br>
+                    Stay humble and leave me alone </br>
+                    Don’t give me a stone when I need a chrome</br>
+                    My wand is tied with that rope </br>
+                    I am brave </br>
+                    Please show love!</br></br>
+                    
+                    Don’t ask me If I need support</br>
+                    When it’s conspicuous</br>
+                    I am tummy </br>
+                    I need unity and honey</br>
+                    I have pair but</br>
+                    I need fair</br>
+                    Don’t forget care coz’ </br>
+                    I am still aware</br></br>
+                    
+                    There is no treasure but</br>
+                    I need pleasure</br>
+                    I don’t wanna starve coz’</br>
+                    I am on this pressure</br>
+                    Consider my pace, and </br>
+                    Give me peace and leave longer</br>
+                    Render my attainments </br>
+                    Slender this scandal,and</br>
+                    Leave my blender!</br></br>
+                    
+                    I suffered a lot </br>
+                    They don’t see me </br>
+                    I am invisible but invincible</br>
+                    They treat me </br>
+                    Like I am immortal</br>
+                    Who is ready to take this photo, and </br>
+                    Take me from </br>
+                    This bulk local?</br>
+                    I’m very tired of this game!</br></br>
+                    
+                    
+                    I am dignified coz’</br>
+                    I was simplified a lot </br>
+                    Take my hand, and</br>
+                    Lift me up</br>
+                    Give me the power to fight for the lower</br>
+                    I am dedicated and focused </br>
+                    I am the real community</br>
+                    I want to love and serve with</br>
+                    The heart of Gratitude</br>
+
+                    &copy Emmanuel A
+                    </p>
+            </div>
+            <button onclick="showMore('poem5')">Read More</button>
+        </div>
+    
+        <!-- Poem 6 -->
+        <div class="poem-item">
+            <h2>Save the Date</h2>
+            <p>  </br>
+                Hold ’on till the right time    </br>
+                Will has to be the best friend   </br> 
+                The day will come    </br>
+                The bird will be singin’    </br>
+                Keep still, the date is about 
+                </p>
+            <div id="poem6" style="display: none;">
+                <!-- Full content of Poem 6 goes here -->
+                <p>   
+                    Infatuate but never give up    </br>
+                    Up on the way, there’s are deemable    </br>
+                    Beyond waiting, there’s a hope    </br>
+                    Don’t say nope, without attainments    </br>
+                    Hold up your regards    </br>
+                    The day is still on    </br>  </br>
+                    Light on the candle    </br>
+                    Mind on the majesty    </br>
+                    Never downfall your shield    </br>
+                    The combat is still the same    </br>
+                    The game is still in the hands    </br>
+                    Get started, thinking of that day    </br>  </br>
+                    The world is in need    </br>
+                    Raise up coz, you’re a word indeed    </br>
+                    Keep the mission update    </br>
+                    Like a waiter on the pub    </br>
+                    R’ a baby lion on the cage    </br>
+                    Never wind up, time is still yours    </br>  </br>
+                    Count on the followers    </br>
+                    Rouse every beloved up    </br>
+                    The plan is horning like a car    </br>
+                    You’re to kick on but    </br>
+                    You gotta go solo tomorrow  </br>  
+                    Rush up, time is up    </br>  </br>
+                    Take off the complications    </br>
+                    Catch up the required    </br>
+                    Prepare the possibilities    </br>
+                    The abilities are to be in use    </br>
+                    The seconds are tickin’ waiting for you    </br>
+                    Com’on and save the date   </br>
+                    
+                    &copy</p>
+            </div>
+            <button onclick="showMore('poem6')">Read More</button>
+        </div>
+    
+        <div class="poem-item">
+            <h2>Happy Birthday</h2>
+            <p>A day you’ve been waiting for</br>
+                Enjoy, work and never turn behindr</br>
+                Keep praising Lord for still upholding your life</br>
+                Mum’s still the best raiserr</br>
+                Happy, happy birthday
+                 </p>
+            <div id="poem7" style="display: none;">
+                <!-- Full content of Poem 7 goes here -->
+                <p> Your Preciousness and remarkabilityr</br>
+                    Many trees are set butr</br>
+                    Keep planting the growing ones.r</br>
+                    Like a sailor sailing in a stormr</br>
+                    Jump over still there’s a hoper</br>
+                    To gotta see the sun rise.r</br>r</br>
+                    
+                    I’ve fallen in AAAAA (Trappish Game)r</br>
+                    but I can’t tell r</br>
+                    I am  still holding save the date</br>
+                    Things will change and r</br>
+                    I become confident enoughr</br>
+                    to look behind and front and make my deep loud voice raiser</br>r</br>
+                    
+                     
+                    Embrace your missionr</br>
+                    Stay grabbing the forthr</br>
+                    But holding up the dater</br>
+                    Inspire and impact your begotten worldr</br>
+                    Turn up the speed walking miles in worthwhile r</br>
+                    Striving instead of starvingr</br>r</br>
+                    
+                    Your fidelity and perseverance are still ‘in countr</br>
+                    Like definition in mysteryr</br>
+                    Lighting over hills or r</br>
+                    Exhibition platform on the north r</br>
+                    Sunset visibility on the sea shorer</br>
+                    Keep delighting this simple crazy lifer</br>r</br>
+                    
+                    Complementarity and coexistence are in viewr</br>
+                    Your beloved ones are taking the prosr</br>
+                    Plus the feasibility and temperamentr</br>
+                    It is still mystifying coz’r</br>
+                    They are still embodying r</br>
+                    How they can walk the talkr</br>r</br>
+                    But you’re still a doyenr</br>
+                    
+                    Sky is not a limitr</br>
+                    You’re dreaming expectantr</br>
+                    You’re preeminent and prominent r</br>
+                    Endure shining and topping r</br>
+                    Your love, care and passion'll take you beyond little longerr</br>
+                    Happy BirthDay r</br>
+                    &copy Emmanuel A</p>
+            </div>
+            <button onclick="showMore('poem7')">Read More</button>
+        </div>
+    
+        <!-- Poem 8 -->
+        <div class="poem-item">
+            <h2>The way forward</h2>
+            <p>The way forward</br>
+                I am still sleepy but<br>
+                My eyes are clearly open<br>
+                I go up and down<br>
+                But I am still confused
+              </p>
+            
+            <div id="poem8" style="display: none;">
+               
+                <p>   
+                    The life is turning back<br>
+                    All of my things have become black<br>
+                    I am very stack<br>
+                    I don’t have any work<br>
+                    I still have the badge of bad luck.<br><br>
+                     
+                    I can see the river bank when I peep<br>
+                    I am swifted and frazzled<br>
+                    I whistle calling wisdom,<br>
+                    But they wall is still ragging on the stand<br>
+                    I still ain’t got  no freedom<br><br>
+                     
+                    I am aching the blowing wind<br>
+                    Winding up my face<br>
+                    I feel pain on my ankle<br>
+                    And I keep asking myself<br>
+                    Is it because I don’t have an uncle?<br><br>
+                    How I am I gonna move forward?<br><br>
+                     
+                    I could hear nobody in the field<br>
+                    Coz’ they all left me in the film<br>
+                    I trim every part of the time<br>
+                    That’s my rhythm but,<br>
+                    God, Is this my stamina?<br><br>
+                     
+                    I reel the ray<br>
+                    Lik’ the spinning wheel on the way<br>
+                    I pray everyday<br>
+                    Holding my hands as a little boy<br>
+                    Ragging the way forward.<br>
+                    &copy Emmanuel A
+                    </p>
+                   
+            </div>
+            <button onclick="showMore('poem8')">Read More</button>
+        </div>
+    <!--
+        <div class="poem-item">
+            <h2>Poem Title 9</h2>
+            <p>Short paragraph about the poem. This is just a brief introduction to grab the reader's attention.</p>
+            <button onclick="showMore('poem9')">Read More</button>
+            <div id="poem9" style="display: none;">
+                <p>Full content of Poem 9...</p>
+            </div>
+        </div>
+    
+        <div class="poem-item">
+            <h2>Poem Title 10</h2>
+            <p>Short paragraph about the poem. This is just a brief introduction to grab the reader's attention.</p>
+            <button onclick="showMore('poem10')">Read More</button>
+            <div id="poem10" style="display: none;">
+                <p>Full content of Poem 10...</p>
+            </div>
+        </div>
+    -->
+    </section>
+
+    <footer>
+        <div id="contact-icons">
+            <marquee scrollamount="10" direction="right"><p id="booking">Bookings</p></marquee>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsCZFQVVdqpXkgpzbWrpnHvDPzHnPJBDZjpKLNVQpCKBQqvdGqlfXRfvqBZZxmpvmbpNcGwB" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_emlucky/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/eahishak/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=0rhqItXMqic&t=30s/" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/ema__vx" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ema.vx/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div id="copyright">
+            <p>&copy; 2024 Meet Emmanuel</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+        function showMore(poemId) {
+            var poem = document.getElementById(poemId);
+            if (poem.style.display === "none") {
+                poem.style.display = "block";
+            } else {
+                poem.style.display = "none";
+            }
+        }
+
+    </script>
+    <div id="search-results-container"></div>
+</body>
+</html>

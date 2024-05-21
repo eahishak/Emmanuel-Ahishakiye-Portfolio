@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <title>Emmanuel Ahishakiye</title>
+    <style>
+        @media screen and (max-width: 768px) {
+    
+.intro-content h2{
+    font-size: 2em;
+    text-align: center;
+}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Meet Emmanuel</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown(this)">Interests</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">Adventure</a>
+                        <a href="poetry.html">Poems</a>
+                        <a href="Writing.html">Writing</a>
+                        <a href="#books">Books</a>
+                        
+                    </div>
+                </li>
+                 <!-- <li><a href="contacts.html">Contacts</a></li>-->
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="search-bar">
+                    <form id="search-form" onsubmit="handleSearch(event)">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button type="submit" id="search-btn">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="netflix-style">
+        <div class="sliding-carousel">
+            <img src="img/home/1.jpg" alt="Image 1">
+        </div>
+        <div class="course-intro">
+            <div class="intro-content">
+                <h2>Explore Visual Stories Unleashed</h2>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section id="gallery">
+    <!-- Add more gallery items as needed -->
+
+</section>
+
+    <footer>
+        <div id="contact-icons">
+            <marquee scrollamount="10" direction="right"><p id="booking">Bookings</p></marquee>
+            <a href="mailto:eahishak@u.rochester.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_emlucky/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/eahishak/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=0rhqItXMqic&t=30s/" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/ema__vx" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ema.vx/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div id="copyright">
+            <p>&copy; 2024 Meet Emmanuel</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <div id="search-results-container"></div>
+</body>
+</html>

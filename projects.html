@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <title>Emmanuel Ahishakiye</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Meet Emmanuel</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown(this)">Interests</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">Adventure</a>
+                        <a href="poetry.html">Poems</a>
+                        <a href="Writing.html">Writing</a>
+                        <a href="#books">Books</a>
+                        
+                    </div>
+                </li>
+               <!-- <li><a href="contacts.html">Contacts</a></li>-->
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="search-bar">
+                    <form id="search-form" onsubmit="handleSearch(event)">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button type="submit" id="search-btn">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="netflix-style">
+        <div class="sliding-carousel">
+            <img src="img/home/emdeveloper.png" alt="Image 1">
+        </div>
+        <div class="course-intro">
+            <div class="intro-content">
+                <h2 style="color:lightblue;">Design Portofolio</h2>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+
+            <div class="device-video-container">
+                <div class="device-video-item">
+                    <div class="resize-video">
+                    <iframe  width="700" height="315" src="https://www.youtube.com/embed/2i6HcgaLsSM?si=7QT5yN1MMvp2UQqg?controls=1"></iframe>
+                    <p>Escape Wonders Game</p>
+                </div>
+            </div>
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/p5FvcEbyIdI?si=txqTjogs4nWt3yNR" allowfullscreen></iframe>
+
+                    <p>SafariVerse Sample Web</p>
+                </div>
+            </div>
+            <div class="device-video-container">
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/22ANtFmYbEM?si=LkgFNhOEDH8VZ3lI"  allowfullscreen></iframe>
+                    <p>A Mosaic Lifestyle by Eagle</p>
+                </div>
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/aYaETQfLh8k?si=PDZKu-xw_Nco29rP"  allowfullscreen></iframe>
+                    <p>Lottery- Gues Your Win</p>
+                </div>
+            </div>
+    
+            <div class="device-video-container">
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/vEGVnL9INhU?si=TFr8TzumLwB_-Ntz"  allowfullscreen></iframe>
+                    <p>See Password using CMD</p>
+                </div>
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/cP6erMDT02I?si=EvbQdKys0UJCWZ3k"  allowfullscreen></iframe>
+                    <p>Set Up Wifi Hotspot using CMD</p>
+                </div>
+            </div>
+            <div class="device-video-container">
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/0rhqItXMqic?si=1ZpGzQ_ej8zvvOJs"  allowfullscreen></iframe>
+                    <p>Jackal Service Provide Web</p>
+                </div>
+                <div class="device-video-item">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/RX3SEsnjBYY?si=T1k2C_l3HL18yTwz"  allowfullscreen></iframe>
+                    <p>Hibernate, Shutdown, Restart using CMD </p>
+                </div>
+            </div>
+    
+        <!-- 4. Icons for GitHub, CodeCamp, Gitlab, Codeberg -->
+        <div class="accounts">Explore More</div>
+        <div class="platform-icons">
+            <a href="https://github.com/eahishak/eahishak" taget="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.freecodecamp.org/fccf0eb9235-a706-41d3-bcc2-160ae6641717" taget="_blank"><i class="fab fa-free-code-camp"></i></a>
+            <a href="https://gitlab.com/safariverse/software-dev-team/safariversehttps://github.com/eahishak/eahishak" taget="_blank"><i class="fab fa-gitlab"></i></a>
+            <a href="https://codeberg.org/eahishak/-/projects" taget="_blank"><i class="fab fa-codeberg"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact-icons">
+            <marquee scrollamount="10" direction="right"><p id="booking">Bookings</p></marquee>
+            <a href="mailto:eahishak@u.rochester.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_emlucky/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/eahishak/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=0rhqItXMqic&t=30s/" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/ema__vx" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ema.vx/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div id="copyright">
+            <p>&copy; 2024 Meet Emmanuel</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <div id="search-results-container"></div>
+</body>
+</html>

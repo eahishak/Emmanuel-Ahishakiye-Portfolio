@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <title>Emmanuel Ahishakiye</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Meet Emmanuel</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown(this)">Interests</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">Adventure</a>
+                        <a href="poetry.html">Poems</a>
+                        <a href="Writing.html">Writing</a>
+                        <a href="#books">Books</a>
+                        
+                    </div>
+                </li>
+                <!-- <li><a href="contacts.html">Contacts</a></li>-->
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="search-bar">
+                    <form id="search-form" onsubmit="handleSearch(event)">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button type="submit" id="search-btn">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="netflix-style">
+        <div class="sliding-carousel">
+            <img src="img/home/1.jpg" alt="Image 1">
+        </div>
+        <div class="course-intro">
+            <div class="intro-content">
+                <h2>Welcome!</h2>
+                <p><i>"Be the change you wish to see in the world." - <b>Mahatma Gandhi</b></i></p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section id="background-section" class="blue-background">
+    <div class="background-section-container">
+        <div class="background-info">
+            <img src="img/home/4.jpg" alt="Motion 1">
+        </div>
+        <div class="background-info">
+            <p>Hi,<br>
+                I am Emmanuel Ahishakiye, simply call me <i><b>Emmanuel!</b></i><br><br>
+                Emmanuel is a dedicated student at the University of Rochester, pursuing a Bachelor of Science degree in Computer Science and Business with a minor in Digital Media Studies. 
+                His academic journey, combined with practical experience, has equipped him with a diverse skill set encompassing web development, artificial intelligence, project management, and effective communication. 
+                Throughout his academic and professional career, he had the privilege of collaborating with both start-ups and nonprofit organizations. Currently, he is engaged in a remote part-time position as a Founder, Spokesperson, and Developer at Jackal Tech Ltd, a dynamic tech startup.  In this capacity, he is spearheading the design and development of an innovative e-commerce web application. Emmanuel is not one to rest on his laurels; he is consistently on the lookout for new opportunities that contribute to both his personal and professional growth. His proactive approach to seeking challenges and learning experiences underscores his ambition to make a meaningful impact in the dynamic world of technology.</p>
+        </div>
+    </div>
+</section>
+
+<section id="layouts" class="netflix-style">
+    <div class="layouts-container">
+        <div class="layout">
+            <img src="img/home/foxnews.jpg" alt="Fox News 1">
+            <p>Lefrak Scholars Summit- Fox News</p>
+        </div>
+        <div class="layout">
+            <img src="img/home/jefferies.jpg" alt="Jefferis 1"> 
+            <p>At Jefferies, CEO Rich Handler shared a remarkable speech </p>
+        </div>
+    </div>
+</section>
+
+<section id="highlight-videos" class="netflix-style">
+    <div class="accounts" style="font-size: 2.2em!important">Portfolio Highlights</div>
+    <div class="video-container">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0rhqItXMqic?si=FKZeY001a9T6OpSU"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yCBrNV8MpwY?si=ftg1Dq_N1NXsWc2r" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="accounts">Explore More</div>
+    <marquee scrollamount="5" direction="up" behavior="alternate">
+    <div class="platform-slider" style="text-align:center;">
+        <div class="platform-slider-inner">
+            <div class="platform-slide">
+                <a href="http://jackaltech.kesug.com/index.html" target="_blank"><img src="img/home/jackaltech.jpg" alt="Em Developer"></a>
+            </div>
+            <div class="platform-slide">
+                <a href="https://www.youtube.com/watch?v=yCBrNV8MpwY&t=8s" target="_blank"><img src="img/home/emdeveloper.png" alt="Em Developer"></a>
+            </div>
+            <div class="platform-slide">
+                <a href="https://www.linkedin.com/company/77053993/admin/feed/posts/" target="_blank"><img src="img/home/dhpp.jpeg" alt="DHPP"></a>
+            </div>
+        </div>
+    </div>
+    </marquee>
+</section>
+</section>
+
+    <footer>
+        <div id="contact-icons">
+            <marquee scrollamount="10" direction="right"><p id="booking">Bookings</p></marquee>
+            <a href="mailto:eahishak@u.rochester.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_emlucky/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/eahishak/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=0rhqItXMqic&t=30s/" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/ema__vx" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ema.vx/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div id="copyright">
+            <p>&copy; 2024 Meet Emmanuel</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <div id="search-results-container"></div>
+</body>
+</html>

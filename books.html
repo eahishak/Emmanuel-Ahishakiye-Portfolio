@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <title>Emmanuel Ahishakiye</title>
+    <style>
+        @media screen and (max-width: 768px) {
+    
+.intro-content h2{
+    font-size: 2em;
+    text-align: center;
+}
+        }
+
+
+        #books {
+            background-color: #141414; /* Dark background color */
+            color: #fff; /* Text color */
+            padding: 50px 0; /* Add some padding for spacing */
+        }
+
+        #books h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .books-row {
+            display: flex;
+            flex-wrap: wrap; /* Allow books to wrap to the next row on smaller screens */
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .book-category {
+            text-align: center;
+            width: 45%; /* Each book category takes up 45% of the width on larger screens */
+            margin-bottom: 20px;
+        }
+
+        .book-category img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px; /* Rounded corners for images */
+            margin-bottom: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+            transition: transform 0.3s ease-in-out; /* Add smooth hover effect */
+        }
+
+        .book-category img:hover {
+            transform: scale(1.1); /* Enlarge image on hover */
+        }
+
+        .book-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        /* Media query for smaller screens */
+        @media screen and (max-width: 768px) {
+            .book-category {
+                width: 100%; /* Each book category takes up 100% of the width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Meet Emmanuel</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown(this)">Interests</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">Adventure</a>
+                        <a href="poetry.html">Poems</a>
+                        <a href="Writing.html">Writing</a>
+                        <a href="#books">Books</a>
+                        
+                    </div>
+                </li>
+                <!-- <li><a href="contacts.html">Contacts</a></li>-->
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="search-bar">
+                    <form id="search-form" onsubmit="handleSearch(event)">
+                        <input type="text" id="search-input" placeholder="Search...">
+                        <button type="submit" id="search-btn">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="books">
+        <h2>Books</h2>
+
+        <div class="books-row">
+            <div class="book-category">
+                <img src="img/books/book1.jpg" alt="Book Read 1">
+                <div class="book-title">Book Title 1</div>
+            </div>
+            <div class="book-category">
+                <img src="img/books/book2.jpg" alt="Book Read 2">
+                <div class="book-title">Book Title 2</div>
+            </div>
+            <!-- Add more books as needed -->
+        </div>
+
+        <div class="books-row">
+            <div class="book-category">
+                <img src="img/books/current_book1.jpg" alt="Currently Reading 1">
+                <div class="book-title">Currently Reading Title 1</div>
+            </div>
+            <div class="book-category">
+                <img src="img/books/current_book2.jpg" alt="Currently Reading 2">
+                <div class="book-title">Currently Reading Title 2</div>
+            </div>
+            <!-- Add more currently reading books as needed -->
+        </div>
+    </section>
+    <footer>
+        <div id="contact-icons">
+            <marquee scrollamount="10" direction="right"><p id="booking">Bookings</p></marquee>
+            <a href="mailto:eahishak@u.rochester.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_emlucky/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/eahishak/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=0rhqItXMqic&t=30s/" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/ema__vx" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ema.vx/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div id="copyright">
+            <p>&copy; 2024 Meet Emmanuel</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <div id="search-results-container"></div>
+</body>
+</html>
