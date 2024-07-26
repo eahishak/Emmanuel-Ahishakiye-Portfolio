@@ -38,7 +38,7 @@ function highlightText(content, searchInput) {
 document.addEventListener('DOMContentLoaded', function () {
     const gallerySection = document.getElementById('gallery');
     const galleryData = [
-        { src: 'img/gallery/1.jpg', description: 'ASYV Gala 23 at Chelsea Piers NYC' },
+        { src: 'img/gallery/1.jpg', description: 'ASYV Gala 24 at Chelsea Piers NYC' },
     { src: 'img/gallery/2.jpg', description: 'LeFrak Summit at Times Square' },
     { src: 'img/gallery/3.jpg', description: 'With Mikel Quintana Roberto' },
     { src: 'img/gallery/4.jpg', description: 'Lefrak Summit 24 at Golden Sachs' },
